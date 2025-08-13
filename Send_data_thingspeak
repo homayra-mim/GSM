@@ -1,7 +1,7 @@
 #include<SoftwareSerial.h>
 SoftwareSerial gprsSerial(2,3);
 #include<String.h>
-//#include<DHT.h>   //request for sensor data
+#include<DHT.h>   //request for sensor data
 
 void setup() {
   gprsSerial.begin(9600);
